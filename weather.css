@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('summer.jpg') no-repeat center center fixed;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    image-rendering: high quality;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 100%;
+}
+
+.app-main {
+    width: 70vh;
+    margin: 100px auto;
+    background-color: rgba(17, 17, 17, 0.87);
+    padding: 20px;
+    text-align: center;
+    height: 70vh;
+}
+
+.app-main>* {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    color: #582233;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0 10px;
+    text-align: center;
+    font-weight: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-box:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+.weather-body {
+    border-radius: 20px;
+    color: #04d9ff;
+    padding: 20px;
+    line-height: 2 rem;
+    border-radius: 10px;
+    background-color: #111;
+    height: 50vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temperature {
+    font-size: 50pt;
+    font-weight: 900px;
+    margin: 30px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max,
+.weather {
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
